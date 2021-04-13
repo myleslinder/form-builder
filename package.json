@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Salesforce App",
   "scripts": {
-    "create": "sfdx force:org:create -f config/project-scratch-def.json -s -a FormBuilderScratch",
+    "create:org": "sfdx force:org:create -f config/project-scratch-def.json -s -a FormBuilderScratch2 -d 30",
     "deploy": "lwc-prebundle prepare && (sfdx force:source:push || lwc-prebundle cleanup) && lwc-prebundle cleanup",
     "open": "sfdx force:org:open",
     "lint": "yarn lint:lwc && yarn lint:aura",

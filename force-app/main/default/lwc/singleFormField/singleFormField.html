@@ -1,0 +1,31 @@
+<template>
+  <div
+    class="slds-grid slds-grid_vertical-align-center slds-grid_align-spread slds-var-m-around_small"
+  >
+    <p>{field}</p>
+    <div
+      class="slds-grid slds-grid_vertical-align-center slds-grid_align-spread"
+    >
+      <lightning-button-group>
+        <lightning-button-icon
+          icon-name="utility:up"
+          disabled={disableUp}
+          value="up"
+          onclick={dispatchMoveEvent}
+        ></lightning-button-icon>
+        <lightning-button-icon
+          icon-name="utility:down"
+          disabled={disableDown}
+          value="down"
+          onclick={dispatchMoveEvent}
+        ></lightning-button-icon>
+      </lightning-button-group>
+      <lightning-button-icon
+        icon-name="utility:delete"
+        variant="bare"
+        onclick={dispatchDeleteEvent}
+        class="slds-var-m-left_small"
+      ></lightning-button-icon>
+    </div>
+  </div>
+</template>

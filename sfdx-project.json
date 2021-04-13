@@ -1,11 +1,37 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": false
+        },
+        {
+            "path": "inbound-email",
+            "package": "InboundEmailService",
+            "versionName": "ver 0.3",
+            "versionNumber": "0.3.0.NEXT",
+            "default": true
+        },
+        {
+            "path": "email-forms",
+            "package": "EmailForms",
+            "versionName": "ver 0.2",
+            "versionNumber": "0.2.0.NEXT",
+            "default": false
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "50.0",
+    "packageAliases": {
+        "InboundEmailService": "0Ho5G0000008OXZSA2",
+        "InboundEmailService@0.1.0-1": "04t5G0000043uNcQAI",
+        "EmailForms": "0Ho5G0000008OY8SAM",
+        "EmailForms@0.1.0-1": "04t5G0000043uSsQAI",
+        "EmailForms@0.1.0-2": "04t5G0000043uSxQAI",
+        "EmailForms@0.2.0-1": "04t5G0000043uT2QAI",
+        "InboundEmailService@0.1.0-2": "04t5G0000043uTHQAY",
+        "InboundEmailService@0.2.0-1": "04t5G0000043uTMQAY",
+        "InboundEmailService@0.2.0-2": "04t5G0000043uTRQAY",
+        "InboundEmailService@0.2.0-3": "04t5G0000043uTWQAY"
     }
-  ],
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "50.0"
 }

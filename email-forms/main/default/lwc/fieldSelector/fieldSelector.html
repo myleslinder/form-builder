@@ -1,0 +1,26 @@
+<template>
+  <div class="slds-grid slds-grid_vertical-align-end slds-grid_align-spread">
+    <div>
+      <lightning-combobox
+        label="Field"
+        options={fieldOptions}
+        if:true={_fields}
+        class="field-selector"
+      ></lightning-combobox>
+    </div>
+    <div>
+      <lightning-button
+        label="Add Field To Form"
+        variant="brand"
+        onclick={addField}
+      ></lightning-button>
+    </div>
+  </div>
+  <div class="slds-var-m-top_medium">
+    <c-field-display
+      fields={selectedFields}
+      if:true={selectedFields.length}
+      onremovefield={removeField}
+    ></c-field-display>
+  </div>
+</template>

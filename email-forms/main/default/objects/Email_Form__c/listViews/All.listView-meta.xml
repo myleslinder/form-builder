@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Email_Template_Metadata_Id__c</columns>
+    <columns>Form_HTML__c</columns>
+    <columns>Form_JSON__c</columns>
+    <columns>Intro_Text__c</columns>
+    <columns>Object_API_Name__c</columns>
+    <columns>Outro_Text__c</columns>
+    <columns>Recipient_Email_Field__c</columns>
+    <columns>Recipient_Name_Field__c</columns>
+    <columns>OBJECT_ID</columns>
+    <columns>Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

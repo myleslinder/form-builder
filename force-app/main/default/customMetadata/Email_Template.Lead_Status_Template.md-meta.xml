@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Lead Status Template</label>
+    <protected>false</protected>
+    <values>
+        <field>HTML_Email_String__c</field>
+        <value xsi:type="xsd:string">&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en-GB&quot;&gt;
+  &lt;head&gt;
+    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;
+    &lt;title&gt;CIP Email Form&lt;/title&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+
+    &lt;style type=&quot;text/css&quot;&gt;
+p {
+margin: 0;
+}
+      a[x-apple-data-detectors] {
+        color: inherit !important;
+      }
+      .hidden-radio {
+        display: inline-block;
+        opacity: 0;
+        width: 0;
+        height: 0;
+        margin: 0 -9999px 0 0;
+        float: right;
+        position: absolute;
+      }
+      input:focus + .button {
+        outline: Highlight auto 2px;
+        outline: -webkit-focus-ring-color auto 5px;
+      }
+      .button {
+        background: #444;
+        width: 20px;
+        height: 20px;
+      }
+
+      .button:hover,
+      input:focus + .button {
+        background: #000;
+      }
+
+      input:checked + .button {
+        background: #666;
+      }
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body style=&quot;margin: 0; padding: 0&quot;&gt;
+    &lt;table
+      role=&quot;presentation&quot;
+      border=&quot;0&quot;
+      cellpadding=&quot;0&quot;
+      cellspacing=&quot;0&quot;
+      width=&quot;100%&quot;
+    &gt;
+      &lt;tr&gt;
+        &lt;td style=&quot;padding: 20px 0 30px 0&quot;&gt;
+          &lt;table
+            align=&quot;center&quot;
+            border=&quot;0&quot;
+            cellpadding=&quot;0&quot;
+            cellspacing=&quot;0&quot;
+            width=&quot;600&quot;
+            style=&quot;border-collapse: collapse&quot;
+          &gt;
+            &lt;tr&gt;
+              &lt;td bgcolor=&quot;#ffffff&quot; style=&quot;padding: 40px 30px 40px 30px&quot;&gt;
+                &lt;table
+                  border=&quot;0&quot;
+                  cellpadding=&quot;0&quot;
+                  cellspacing=&quot;0&quot;
+                  width=&quot;100%&quot;
+                  style=&quot;border-collapse: collapse&quot;
+                &gt;
+                  &lt;tr&gt;
+                    &lt;td
+                      style=&quot;
+                        color: #153643;
+                        font-family: Arial, sans-serif;
+                        font-size: 16px;
+                        line-height: 24px;
+                        padding: 20px 0 30px 0;
+                      &quot;
+                    &gt;
+                      &lt;p
+                        style=&quot;
+                          margin: 0;
+                          color: #153643;
+                          font-family: Arial, sans-serif;
+                        &quot;
+                      &gt;
+                        {{REPLACE_WITH_INTRO}}
+                      &lt;/p&gt;
+                    &lt;/td&gt;
+                  &lt;/tr&gt;
+                  &lt;tr&gt;
+                    &lt;td&gt;
+                      &lt;table
+                        border=&quot;0&quot;
+                        cellpadding=&quot;0&quot;
+                        cellspacing=&quot;0&quot;
+                        width=&quot;100%&quot;
+                        style=&quot;border-collapse: collapse&quot;
+                      &gt;
+                        &lt;tr&gt;
+                          &lt;td width=&quot;260&quot; valign=&quot;top&quot;&gt;
+                            &lt;table
+                              border=&quot;0&quot;
+                              cellpadding=&quot;0&quot;
+                              cellspacing=&quot;0&quot;
+                              width=&quot;100%&quot;
+                              style=&quot;border-collapse: collapse&quot;
+                            &gt;
+                              &lt;tr&gt;
+                                &lt;td&gt;
+                                  {{REPLACE_WITH_FORM}}
+
+                                  &lt;div class=&quot;fallback-form outlookshow&quot;&gt;
+                                    {{REPLACE_WITH_FALLBACK}}
+                                  &lt;/div&gt;
+                                &lt;/td&gt;
+                              &lt;/tr&gt;
+                              &lt;tr&gt;
+                                &lt;td
+                                  style=&quot;
+                                    color: #153643;
+                                    font-family: Arial, sans-serif;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    padding: 25px 0 0 0;
+                                  &quot;
+                                &gt;
+                                  &lt;p style=&quot;margin: 0&quot;&gt;
+                                    {{REPLACE_WITH_SIGNOFF}}
+                                  &lt;/p&gt;
+                                &lt;/td&gt;
+                              &lt;/tr&gt;
+                            &lt;/table&gt;
+                          &lt;/td&gt;
+                        &lt;/tr&gt;
+                      &lt;/table&gt;
+                    &lt;/td&gt;
+                  &lt;/tr&gt;
+                &lt;/table&gt;
+              &lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/table&gt;
+        &lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</value>
+    </values>
+</CustomMetadata>

@@ -1,0 +1,17 @@
+<template>
+  <template
+    for:each={orderedFields}
+    for:item="field"
+    for:index="index"
+    if:true={fields}
+  >
+    <c-single-form-field
+      field={field}
+      key={field}
+      index={index}
+      field-count={fields.length}
+      onmove={handleMoveRequest}
+      onremovefield={handleDeleteRequest}
+    ></c-single-form-field>
+  </template>
+</template>
